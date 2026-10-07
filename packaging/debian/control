@@ -1,0 +1,14 @@
+Source: oosock
+Section: utils
+Priority: optional
+Maintainer: openOODA-tools <ops@openooda.org>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13)
+
+Package: oosock
+Architecture: amd64
+Depends: libc6
+Description: UNIX DOMAIN SOCKET
+ Diagnostic tool connecting to and hosting UNIX domain sockets with permissions check.
+ Capability-bounded openOODA utility with zero ambient authority,
+ oote theme palettes, and native Model Context Protocol (MCP) surface.
